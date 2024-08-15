@@ -52,7 +52,7 @@ do
 	   fi
 	   ;;
 	*)
-          echo "Try again!!";;
+          echo "Try again!!";; #the * option here is a catch all, meaning any input that doesn't match 1 - 4 results in the error message "try again!"
   esac
 
 #The below request is looking for the "Y" variable, which will restart the script if found. Otherwise, the user is greeted with a goodbye message
